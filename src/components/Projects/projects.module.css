@@ -1,0 +1,135 @@
+.projectSection{
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+    background-color: black;
+}
+.projectSection .majorProject{
+    width: 100%;
+   
+}
+.projectSection .majorProject{
+    width: 100%;
+   
+   
+}
+
+
+.projectSection .minorProject{
+ width: 25%;
+ 
+}
+.projectSection .majorProject a{
+    text-decoration: none;
+    color: white;
+ }
+ .projectSection .majorProject a:hover{
+ 
+    color: orangered
+ }
+ .projectSection .minorProject a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+ }
+ 
+ .projectSection .minorProject a:hover{
+    
+    color: orangered
+    
+ }
+ 
+ 
+.projectSection .minorProject .minorProjectItem{
+
+    height:80px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 20px;
+    border-left: 1px solid orangered;
+}
+.minorProjectHeading{
+font-size: 30px;
+text-align: center;
+
+color: rgb(238, 105, 89);
+ font-weight: bolder;
+    font-family: cursive;
+    
+
+}
+
+.projectSection .projectItemRight{
+   
+    width: 70%;
+    height:120px;
+    margin: 10px 50px;
+   float: left;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid rgb(0, 170, 255);
+    border-radius: 50px;
+}
+.projectSection .projectItemLeft{
+   
+    width: 70%;
+    height:120px;
+  margin-left: 200px;
+   float: right;
+    align-items: center;
+    margin: 10px 50px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    border: 1px solid rgb(0, 170, 255);
+     border-radius: 50px; 
+}
+
+.projectSection p{
+   
+    font-size: 2rem;
+    
+}
+.projectSection p:hover{
+ color:orangered    
+}
+
+.projectSection h1{
+    font-size: 2rem;
+    margin-left: 50px;
+  
+    color: rgb(238, 105, 89);
+     font-weight: bolder;
+    font-family: cursive;
+    
+}
+@media screen and (max-width:900px){
+    .projectSection{
+    flex-direction:column;
+    padding-bottom: 50px;
+}
+.projectSection .minorProject{
+ display: none;
+}
+}
+@media screen and (max-width:600px){
+  
+.projectSection .projectItemLeft{
+border: none;
+font-size: 1rem;
+
+}
+.projectSection .projectItemRight{
+    border: none;
+font-size: 1rem;
+}
+
+}

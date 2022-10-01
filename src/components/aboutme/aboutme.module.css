@@ -1,0 +1,136 @@
+
+.aboutSection{
+    width: 100%;
+    height: 712px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   margin: 0px auto;
+   padding: 50px 0px;
+    background-color: #1F2233;
+    /* background-image: url("https://i0.wp.com/windowscustomization.com/wp-content/uploads/2018/10/particles.gif?fit=750%2C365&quality=80&strip=all&ssl=1"); */
+  
+}
+
+.aboutme{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px auto;
+   
+    
+    
+}
+.aboutme p{
+    color: #72737F;
+}
+.aboutme span{
+    color: white;
+}
+.img{
+width: 35%;
+border-radius:20px ;
+
+}
+.intro{
+    width: 50%;
+    margin: 0px 50px;
+  
+  
+}
+.intro .discover{
+    color: #f68176;
+    margin-top:-5px;
+    font-size:1rem;
+}
+.details{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+   border: 1px solid #f68176;
+   overflow:hidden;
+   border-radius:10px;
+}
+.detailsPart{
+    padding-left: 100px;
+}
+
+.aboutme button{
+    width: 20%;
+    height: 30px;
+    margin-top: 20px;
+    color: white;
+border: 1px solid #f68176;
+background: none;
+border-radius:5px;
+}
+.aboutme button:hover{
+ background-image: linear-gradient(to right,#ff0404, #fdc3a1);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+         box-shadow: inset 0 0 10px #f68176 ;
+}
+ .aboutHeading{
+   
+    font-size: 1.5rem;
+    text-decoration:1px underline;
+    text-decoration-color:  #f68176;
+    margin-top: -10px;
+}
+
+@media screen and (max-width:960px){
+    .aboutSection{
+       height: 1150px;
+    }
+    .aboutme{
+        
+        height: auto;
+ flex-direction:  column-reverse; 
+ align-items: stretch;
+ flex-wrap: wrap;
+
+ padding-bottom: 250px;
+ 
+    }
+    .aboutme button{
+        margin: 25px 0px;
+    }
+    .img{
+        width: 100%;
+        height: 250px;
+        padding-left: 20px;
+         text-align: center;
+    }
+    .intro,.details{
+        width: 100%;
+        height: auto;
+        align-items: stretch;
+ flex-wrap: wrap;
+    }
+
+}
+@media screen and (max-width:620px){
+    .detailsPart{
+        flex-direction: column;
+        padding:0px;
+    }
+    .aboutme button{
+        width: 100%;
+    }
+    .aboutSection{
+        height: auto;
+    }
+    .aboutme{
+        height: auto;
+        padding-bottom: 100px;
+        margin-bottom: 0px;
+    }
+   
+}
+
