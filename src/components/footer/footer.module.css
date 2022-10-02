@@ -3,9 +3,11 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background-color: black;
     background-image: url("https://www.hallada.net/img/blog/proximity-structures.gif");
 
-  
+  border-top: 1px solid orangered;
+  padding: 50px 0px;
 }
 .footer p{
     color: #f68176;
