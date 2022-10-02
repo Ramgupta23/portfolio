@@ -1,7 +1,7 @@
 import React from 'react'
-
+ import Image from 'next/image'
  import classes from './projects.module.css'
-
+import Link from 'next/link'
 const projects = () => {
   return (
     <section className={classes.projectSection} id="projects">
@@ -11,8 +11,9 @@ const projects = () => {
                 
                 <p><a  href="https://adityashoppingapp.herokuapp.com" target="_blank" rel="noreferrer">E-Commerce Website</a></p>
                  
-                  <img style={{ borderRadius: "10px",width:"100px", height:"100px" }}
-                      
+                  <Image style={{ borderRadius: "10px" }}
+                      width={100}
+                      height={100}
                        
                       alt="e-commerce website"
                       src="/images/eCommerceWebsite.png"
@@ -23,8 +24,9 @@ const projects = () => {
               <div className={classes.projectItemLeft}>
               
                 <p><a href="https://aadityachatapp.herokuapp.com" target="_blank" rel="noreferrer">Chatting app </a></p>
-                 <img style={{ borderRadius: "10px" ,width:"100px", height:"100px"}}
-                     
+                 <Image style={{ borderRadius: "10px" }}
+                      width={100}
+                      height={100}
                      
                       alt="Chatting app"
                       src="/images/chatting-app.png"
@@ -35,17 +37,19 @@ const projects = () => {
            
                 <p><a  href="https://aditya-blog-website.herokuapp.com" target="_blank" rel="noreferrer">Blogging website </a></p>
            
-                  <img style={{ borderRadius: "10px",width:"100px", height:"100px" }}
-                     
+                  <Image style={{ borderRadius: "10px" }}
+                      width={100}
+                      height={100}
                         alt="Blogging website"
-                      src="/images/adityaImg.jpg"
+                      src="/images/blogWebsite.png"
                   />
                  
               </div>
               <div className={classes.projectItemLeft}>
-                  <p style={{color:"white"}}>Twitter Clone</p>
-                  <img style={{ borderRadius: "10px" ,width:"100px", height:"100px"}}
-                      
+                  <p>Twitter Clone</p>
+                  <Image style={{ borderRadius: "10px" }}
+                      width={100}
+                      height={100}
                         alt="Twitter clone"
                       src="/images/image.jpg"
                   />
@@ -58,10 +62,11 @@ const projects = () => {
               <div className={classes.minorProjectItem}>
                  
             
-                <p><a href="https://aditya-me.netlify.app/assignment-8(wheather%20app)" target="_blank" rel="noreferrer">Weather website </a></p>
+                <p><a href="https://aditya-me.netlify.app/assignment-8(wheather%20app)" target="_blank" rel="noreferrer">Weather forecasting website </a></p>
                 
-                  <img style={{ borderRadius: "10px",width:"50px", height:"50px" }}
-                      
+                  <Image style={{ borderRadius: "10px" }}
+                      width={50}
+                      height={50}
                         alt="e-commerce website"
                       src="/images/weatherApi.png"
                   />
@@ -71,8 +76,9 @@ const projects = () => {
              
                 <p><a href="https://aditya-me.netlify.app/assignment-6/" target="_blank" rel="noreferrer">Music Player</a></p>
                 
-                  <img style={{ borderRadius: "10px",width:"50px", height:"50px" }}
-                    
+                  <Image style={{ borderRadius: "10px" }}
+                      width={50}
+                      height={50}
                         alt="Music Player"
                       src="/images/musicplayer.png"
                   />
@@ -84,8 +90,9 @@ const projects = () => {
                 <p><a  href="https://agile-fortress-31191.herokuapp.com" target="_blank" rel="noreferrer">Food Website</a></p>
                  
         
-                  <img style={{ borderRadius: "10px",width:"50px", height:"50px" }}
-                     
+                  <Image style={{ borderRadius: "10px" }}
+                      width={50}
+                      height={50}
                         alt="Food website"
                       src="/images/foodapp.png"
                   />
@@ -97,8 +104,9 @@ const projects = () => {
                 <p><a href="https://aditya-me.netlify.app/assignment-9(movie%20search-app)" target="_blank" rel="noreferrer">Movies Api Website</a></p>
                     
                             
-                  <img style={{ borderRadius: "10px",width:"50px", height:"50px" }}
-                      
+                  <Image style={{ borderRadius: "10px" }}
+                      width={50}
+                      height={50}
                         alt="Movies Api Website"
                       src="/images/movieswebsite.png"
                   />

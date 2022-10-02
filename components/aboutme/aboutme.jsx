@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 import classes from "./aboutme.module.css"
 
 
@@ -14,7 +14,9 @@ const aboutme = () => {
            
            <div className={classes.aboutme}>
                 <div className={classes.img}> 
-                    <img 
+                    <Image style={{borderRadius:"10px"}}
+                        width={500}
+                        height={500}
                         alt="profile img"
                         src="/images/image.jpg"
                     />
