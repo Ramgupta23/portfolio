@@ -38,7 +38,7 @@ const projects = () => {
                   <img style={{ borderRadius: "10px",width:"100px", height:"100px" }}
                      
                         alt="Blogging website"
-                      src="/images/adityaImg.jpg"
+                      src="/images/blogWebsite.jpg"
                   />
                  
               </div>
