@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import classes from "./header.module.css"
 import Link from 'next/link'
-import Image from 'next/image'
+
   import { FaBars } from "react-icons/fa"
-import adityaImg from "../../assets/images/adityaImg.jpg"
+// import adityaImg from "../../assets/images/adityaImg.jpg"
 const Header = () => {
   const [toggleMenu, settoggleMenu] = useState(false)
   const toggleMenuHandler = () => {
@@ -16,7 +16,7 @@ const Header = () => {
   }
 
   return (
-    <>
+    <div  id="header">
       <section className={classes.headerBox}>
         <navbar className={classes.navbar}>
           <div>
@@ -25,7 +25,7 @@ const Header = () => {
           <div  >
             <ul className={`${classes.navlinks} ${toggleMenu ? " " : classes.hidenavbar}`} onClick={blurHanlder} >
 
-              <li ><Link href="/">Home</Link> </li>
+              <li ><Link href="#contactme">Home</Link> </li>
               <li><Link href="#about">About</Link></li>
               <li><Link href="#services">Services</Link></li>
               <li> <a href="https://drive.google.com/file/d/1IHQWts84R8heI3vF4pqXLsMGS8cA-A8z/view?usp=sharing" target="_blank" rel="noreferrer"> Resume </a></li>
@@ -57,7 +57,7 @@ const Header = () => {
 
 
       </section>
-    </>
+    </div>
   )
 }
 

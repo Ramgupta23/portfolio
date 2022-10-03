@@ -18,7 +18,7 @@ const footer = () => {
 <div>
     <p>Important Links</p>
     <ul>
-                  <li><Link href="/">Home</Link> </li>
+                  <li><Link href="#home">Home</Link> </li>
                   <li><Link href="#about">About</Link> </li>
                   <li><Link href="#services"> Services</Link></li>
                   <li><Link href="https://drive.google.com/file/d/1IHQWts84R8heI3vF4pqXLsMGS8cA-A8z/view?usp=sharing" target="_blank"> Resume</Link></li>
