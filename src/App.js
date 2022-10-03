@@ -6,7 +6,7 @@ import Projects from "./components/Projects/projects"
 
 function App() {
   return (
-    <div >
+    <div style={{overflowX:"hidden"}} >
         <Header />
      <Aboutme /> 
      <Services />

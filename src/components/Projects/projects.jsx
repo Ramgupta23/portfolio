@@ -15,7 +15,7 @@ const projects = () => {
                       
                        
                       alt="e-commerce website"
-                      src="/images/eCommerceWebsite.png"
+                      src="/images/eCommerceWebsite.jpg"
                       
                   />
                   
@@ -27,7 +27,7 @@ const projects = () => {
                      
                      
                       alt="Chatting app"
-                      src="/images/chatting-app.png"
+                      src="/images/chatting-app.jpg"
                   />
                  
               </div>
@@ -63,7 +63,7 @@ const projects = () => {
                   <img style={{ borderRadius: "10px",width:"50px", height:"50px" }}
                       
                         alt="e-commerce website"
-                      src="/images/weatherApi.png"
+                      src="/images/weatherApi.jpg"
                   />
 
               </div>
@@ -74,7 +74,7 @@ const projects = () => {
                   <img style={{ borderRadius: "10px",width:"50px", height:"50px" }}
                     
                         alt="Music Player"
-                      src="/images/musicplayer.png"
+                      src="/images/musicplayer.jpg"
                   />
               
 
@@ -87,20 +87,20 @@ const projects = () => {
                   <img style={{ borderRadius: "10px",width:"50px", height:"50px" }}
                      
                         alt="Food website"
-                      src="/images/foodapp.png"
+                      src="/images/foodapp.jpg"
                   />
 
 
               </div>
               <div className={classes.minorProjectItem}>
              
-                <p><a href="https://aditya-me.netlify.app/assignment-9(movie%20search-app)" target="_blank" rel="noreferrer">Movies Api Website</a></p>
+                <p><a href="https://aditya-me.netlify.app/assignment-9(movie%20search-app)" target="_blank" rel="noreferrer">Movies Api Website </a></p>
                     
                             
                   <img style={{ borderRadius: "10px",width:"50px", height:"50px" }}
                       
                         alt="Movies Api Website"
-                      src="/images/movieswebsite.png"
+                      src="/images/movieswebsite.jpg"
                   />
                 
                   
