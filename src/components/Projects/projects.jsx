@@ -43,7 +43,7 @@ const projects = () => {
                  
               </div>
               <div className={classes.projectItemLeft}>
-                  <p style={{color:"white"}}>Twitter Clone</p>
+                  <p style={{color:"white",fontSize:"1.5rem",fontFamily: "cursive"}}>Twitter Clone</p>
                   <img style={{ borderRadius: "10px" ,width:"100px", height:"100px"}}
                       
                         alt="Twitter clone"

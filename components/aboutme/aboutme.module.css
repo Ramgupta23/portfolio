@@ -4,6 +4,7 @@
     height: 712px;
    margin: 0px auto;
    padding: 50px 0px;
+   font-family: cursive;
     background-color: #1F2233;
     /* background-image: url("https://i0.wp.com/windowscustomization.com/wp-content/uploads/2018/10/particles.gif?fit=750%2C365&quality=80&strip=all&ssl=1"); */
   
@@ -18,14 +19,17 @@
     align-items: center;
     margin: 0px auto;
     padding: 50px;
+    font-family: cursive;
     
     
 }
 .aboutme p{
-    color: #72737F;
+    color: #72737F; 
+    font-family: cursive;
 }
 .aboutme span{
     color: white;
+    font-family: cursive;
 }
 .img{
 width: 35%;
@@ -51,6 +55,7 @@ border-radius:20px ;
     align-items: center;
    border: 1px solid #f68176;
    overflow:hidden;
+   font-family: cursive;
    border-radius:10px;
 }
 .detailsPart{
@@ -64,6 +69,7 @@ border-radius:20px ;
 border: 1px solid #f68176;
 background: none;
 border-radius:5px;
+font-family: cursive;
 }
 .aboutme button:hover{
  background-image: linear-gradient(to right,#ff0404, #fdc3a1);

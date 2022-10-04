@@ -24,8 +24,10 @@
 .projectSection .majorProject a{
     text-decoration: none;
     color: white;
+    font-family: cursive;
     font-size: 80%;
  }
+
  .projectSection .majorProject a:hover{
  
     color: orangered
@@ -34,6 +36,7 @@
     text-decoration: none;
     color: white;
     font-size: 60%;
+    font-family: cursive;
     
  }
  
