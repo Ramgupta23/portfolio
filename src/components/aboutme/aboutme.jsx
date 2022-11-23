@@ -40,8 +40,8 @@ const aboutme = () => {
                             <p><span>Whatsapp:</span> +91 9467665000</p>
                         </div>
                    </div>
-
-                    <a href='/resume/resume.pdf' download><button>Download CV</button></a>
+                   <a href="https://drive.google.com/file/d/1k4I5XlkveRaO_T1bBa8nsRIi5R7FBldh/view?usp=share_link" target="_blank" rel="noreferrer"> <button>Download CV</button></a>
+                    {/* <a href='/resume/resume.pdf' download><button>Download CV</button></a> */}
                 </div>
 
            </div>
