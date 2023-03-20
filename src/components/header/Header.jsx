@@ -27,7 +27,7 @@ const Header = () => {
               <li ><a href="/">Home</a> </li>
               <li><a href="#about">About</a></li>
               <li><a href="#services">Services</a></li>
-              <li> <a href="https://drive.google.com/file/d/1IHQWts84R8heI3vF4pqXLsMGS8cA-A8z/view?usp=sharing" target="_blank" rel="noreferrer"> Resume </a></li>
+              <li> <a href="https://drive.google.com/file/d/1CRAwYFirnl9UG8_B5LtH99fu9rxkyp3k/view?usp=share_link" target="_blank" rel="noreferrer"> Resume </a></li>
               <li><a href="#projects">Projects</a></li>
               <li><a href="#experience">Experience</a></li>
               <li><a href="#contactme">Contact me</a></li>
