@@ -47,7 +47,7 @@ const Header = () => {
             {}
           </figure>
 
-          <ul>
+          <ul className={classes.profile}>
             <li style={{ fontSize: "30px", color:"#f68176"}}> Aaditya Singh </li>
 
             <li style={{color:"white"}}>  A Creative Freelancer & Full Stack Developer</li>
