@@ -1,7 +1,10 @@
 import React, { useState } from 'react'
 import classes from "./header.module.css"
-import { FaBars } from "react-icons/fa"
-
+import { FaBars } from "react-icons/fa";
+import SocialLinks from '../sociallinks/SocialLinks';
+import {
+  EmailShareButton,
+  FacebookShareButton,}from "react-share";
 
 const Header = () => {
   const [toggleMenu, settoggleMenu] = useState(false)
@@ -41,7 +44,6 @@ const Header = () => {
 
         </navbar>
 
-
         <div className={classes.profileItems}>
           <figure style={{padding:"10px"}}>
             {}
@@ -51,9 +53,12 @@ const Header = () => {
             <li style={{ fontSize: "30px", color:"#f68176"}}> Aaditya Singh </li>
 
             <li style={{color:"white"}}>  A Creative Freelancer & Full Stack Developer</li>
+           
           </ul>
+          <SocialLinks/>
         </div>
-
+        
+       
 
       </section>
     </>
