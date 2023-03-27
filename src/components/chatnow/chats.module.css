@@ -1,0 +1,95 @@
+.chatBox{
+    width:400px;
+    height:55px;
+    position: fixed;
+    right: 2px;
+   border-radius: 10px;
+    text-align: center;
+    margin-right: 2px;
+    margin-top: -10px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   margin-top: -10px;
+    background-position:inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwcNBwgNCAgHBw0HBw0HBwcHBw8ICQcNFREWFhURExMYHSggGBoxJxMTITEhMSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDg0NDisZFRkrKysrKystLSsrLSsrLSsrKy0rKys4KysrKysrKysrNysrKysrLSsrKy0rKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAABAAIFA//EABcQAQEBAQAAAAAAAAAAAAAAAAABESH/xAAZAQEBAQEBAQAAAAAAAAAAAAACAQUABgT/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/APEqF6t8kUMRQojERKRFGIciKKFEYoRKRFGIUijQInCQUKRFNCUiKKFIijBORQooUiKIlIE0kXHDKMabDiKhQpEUYJSIoxDihiIlIijIhRSFESkRRQ5EUYJSKQooUhIMEpCQYhyGQhqCUiKKFIMR4UXHDhDTTYciKhglIijIhSKFFDiKIlIoUcEpFCoUKRFQxDkUKIlIioUKRFGCUihRQpE0CJyKNAoUixFIuOIkWkw5CUohSKNAxCkMKIlA0oYhyIxESkRRQoiiJyKGIoUiMREooUUKRGKESkRRQ5EURKRIhyuIYi0mHIijEKRQoiUiaghQ5DCiJSIwQoUhKhEpEUUKRGIiciMUKFIjFChSIqESiKMQ5EURKRIhFcQqFpsOKFESkRxQoUiMUKFIYkRORGKFCkRREpCUkKQmKQiciMRQpEYoRKRFGRCkUKInIjEYhSJFIuOGUWmw5EYoRKRGIoUiKMEpFDIoUORFGCUihiKFIjERKIppDkSiaEpEkYhSGQgoUiagagnIoUUKQIlFxwyGo0mHIjEUKRFESkRRQpEURORFFCkRRQpEUYJSKFFDkRREpEUUKRQoiUiaSQ5EURKRFJFxxIYjGmw5EUohSKNIwSkRiKFIijBORQoxCkUKMEpFCjEKRQoiciKKFIoURKRNCFCkRRQ4oYiJSJHEi44ZRabDkRRkEpDEmkKRFESkRRiHIoURKRQooUihREpEYoUORFFCkRikIlIiihSIoiciMUKFIkUmrjhlGNJhyKQooUiMREpEUYhSKFFDkTSiglIYUkKEwRoSkREaiHIoYiJSIqFCkUKIlIiihyIowSkBRdq44cKLSYcihUKFIiiJSIooUiMUInIioUKRHFCJSIxQoUiKjQnIlEUKQwqGCUihDUQpEQ0hyIowSkCJRXDMRabDkRihEoiihSIxQoUiKhE5EUUKRGKESkRRiFIoURORFFCkUKMEpFCihSJoGCchhRQpECkVxDFC02HIjFCJSIwNIUiMUIlIijEOIoiUiMRkQpFCiJSIoociKMEpFCjEKRQoiURRiFIYkkJJJznFMSaTEhKQlCUkKGGFIUUKQnDGgkKFpISUaSQoTAhOFpJCMKQlCYkhQlITiSTnJJOc/9k=")
+  
+}
+.openchatBox{
+    position:fixed;
+   right: 2px;
+    width:400px;
+    height:500px;
+    margin-top: -460px;
+ 
+   border-radius: 10px;
+   margin-right: 2px;
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-1VZvumJ-AHo-8VQBhw2WEe7fYOZjtBA9yA&usqp=CAU");
+
+  
+}
+
+.inputForm{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction:column;
+    border-radius: 10px;
+   font-size: 30px;
+   align-items: center;
+   font-style: normal;
+ overflow-y: scroll;
+ overflow-x: hidden;
+  
+   
+ 
+}
+.inputForm input{
+    width: 350px;
+    height:40px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: medium;
+}
+.inputForm button{
+    width: 300px;
+    height:30px;
+ 
+   border-radius: 10px;
+    text-align: center;
+    align-self: center;
+    font-size: medium;
+}
+
+.submitBox{
+    display: flex;
+    flex-direction: row;
+
+   position: fixed;
+   width: 400px;
+  height:50px;
+
+    border-radius: 20px;
+    align-self: center;
+    font-size: medium;
+overflow-wrap: break-word;
+}
+.chatsubmit{
+    width: 345px;
+    height:45px;
+    font-weight: 800;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.chatSubmitBtn{
+    width: 45px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 2px;
+    background-color: white;
+   
+}

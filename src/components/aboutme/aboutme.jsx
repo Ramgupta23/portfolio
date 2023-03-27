@@ -16,7 +16,7 @@ const aboutme = () => {
                 <div className={classes.img}> 
                     <img 
                         alt="profile img"
-                        src="/images/image.jpg"
+                        src="/images/programmerImage.avif"
                     />
                 </div>
                 <div className={classes.intro} >

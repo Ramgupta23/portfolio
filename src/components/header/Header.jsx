@@ -5,9 +5,16 @@ import SocialLinks from '../sociallinks/SocialLinks';
 import {
   EmailShareButton,
   FacebookShareButton,}from "react-share";
+import Chats from '../chatnow/chat';
+import Codingplatforms from '../codingPlatforms/codingplatforms';
+import OpenchatBox from '../chatnow/openChatBox';
+import OpenCodingplatforms from '../codingPlatforms/openCodingplatform';
 
 const Header = () => {
   const [toggleMenu, settoggleMenu] = useState(false)
+  const [openChat,setOpenChat]=useState(false);
+  const [competativePlatformStatus,setCompetativePlatformStatus]=useState(true);
+
   const toggleMenuHandler = () => {
 
     settoggleMenu(!toggleMenu)
@@ -16,6 +23,17 @@ const Header = () => {
   function blurHanlder() {
     settoggleMenu(false)
   }
+  const openBoxHandler=()=>{
+setOpenChat(!openChat);
+
+
+  }
+  const openPlatformBoxHandler=()=>{
+  setCompetativePlatformStatus(!competativePlatformStatus);
+   
+ 
+      }
+  
 
   return (
     <>
@@ -56,6 +74,15 @@ const Header = () => {
            
           </ul>
           <SocialLinks/>
+          <div className={classes.chatboxAndCodingPlatformBox}>
+            {competativePlatformStatus ?<OpenCodingplatforms  paltformhandler={openPlatformBoxHandler}/>:<Codingplatforms   paltformhandler={openPlatformBoxHandler} />}
+           
+
+ {openChat?<OpenchatBox boxHandler={openBoxHandler} />:<Chats boxHandler={openBoxHandler}  />}
+      
+           
+          </div>
+         
         </div>
         
        

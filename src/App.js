@@ -3,6 +3,7 @@ import Footer from "./components/footer/footer"
 import Aboutme from "./components/aboutme/aboutme"
 import Services from "./components/services/myservices"
 import Projects from "./components/Projects/projects"
+import Chats from "./components/chatnow/chat"
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
      <Services />
      <Projects />
   <Footer />
-      
+
     </div>
   );
 }
