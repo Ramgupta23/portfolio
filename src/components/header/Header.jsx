@@ -75,7 +75,7 @@ setOpenChat(!openChat);
           </ul>
           <SocialLinks/>
           <div className={classes.chatboxAndCodingPlatformBox}>
-            {competativePlatformStatus ?<OpenCodingplatforms  paltformhandler={openPlatformBoxHandler}/>:<Codingplatforms   paltformhandler={openPlatformBoxHandler} />}
+            {/* {competativePlatformStatus ?<OpenCodingplatforms  paltformhandler={openPlatformBoxHandler}/>:<Codingplatforms   paltformhandler={openPlatformBoxHandler} />} */}
            
 
  {openChat?<OpenchatBox boxHandler={openBoxHandler} />:<Chats boxHandler={openBoxHandler}  />}
